@@ -17,11 +17,11 @@ then edit your `craco.config.js` file to contain the plugin
 const WorkerLoaderPlugin = require("craco-worker-loader");
 
 module.exports = function({ env }) {
-	return {
-		plugins: [{
-			plugin: WorkerLoaderPlugin
-		}]
-	}
+  return {
+    plugins: [{
+      plugin: WorkerLoaderPlugin
+    }]
+  }
 };
 ```
 
